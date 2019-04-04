@@ -32,8 +32,8 @@ type KubeRouterConfig struct {
 	HealthPort              uint16
 	HelpRequested           bool
 	HostnameOverride        string
-	NetworkPolicyHandler	string
-	NetworkPolicyDefault	string
+	NetworkPolicyHandler    string
+	NetworkPolicyDefault    string
 	IPTablesSyncPeriod      time.Duration
 	IpvsSyncPeriod          time.Duration
 	Kubeconfig              string

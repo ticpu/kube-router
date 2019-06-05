@@ -1,6 +1,9 @@
 .vscode
 /kube-router
 /gobgp
+.idea/
+vendor/
 _output
 _cache
 Dockerfile.amd64.run
+*.lock
